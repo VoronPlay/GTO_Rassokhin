@@ -1,0 +1,22 @@
+﻿<Application x:Class="GTO_Rassokhin.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GTO_Rassokhin"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label" x:Key="Skili">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="13pt"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontWeight" Value="Black"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Label" x:Key="Skili2">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="13pt"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontWeight" Value="Black"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+    </Application.Resources>
+</Application>
